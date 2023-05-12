@@ -1,8 +1,6 @@
 # Unity Animator Layer Duplication
 Editor extensions that allow you to create shallow copies of layers inside an Animator Controller
 
-![5677](https://github.com/Kidades/UnityAnimatorLayerDuplication/assets/6003492/82ed3551-332f-4fa3-93da-a0e606473420)
-
 The scripts add two new options under the "Tools" contex menu - "Layer Duplicator" and "Duplicated Layer Deletion".
 
 The Layer Duplicator windows lets you select an Animator Controller and a layer that's part of it. It then creates a shallow copy of that layer. A new layer with the same base state machine as the selected layer. This means that any changes made in either of the two layers would be reflected in the other one, **INCLUDING** the deletion of a layer.
@@ -14,6 +12,8 @@ Since the duplicating layers are referencing the same objects and don't have cop
 
 
 
-### How to install
+## How to install
 
 Copy the two scripts LayerDuplicator.cs and DeleteAnimatorLayer.cs into Assets/Editor. If there's no Editor folder in your Assets folder, create it. Once you put the scripts there, you can find the options in the Unity Editor menu bar under the "Tools" option.
+
+![5677](https://github.com/Kidades/UnityAnimatorLayerDuplication/assets/6003492/82ed3551-332f-4fa3-93da-a0e606473420)
