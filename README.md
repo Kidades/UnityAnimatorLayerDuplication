@@ -8,6 +8,7 @@ The Layer Duplicator windows lets you select an Animator Controller and a layer 
 This is useful when you want the same Animation Layer to use more than one Avatar mask, since as of making this, it is not possible to programmatically change the avatar mask assigned to an animation layer. With this sccript you can create unlimited shallow copies of a layer and assing a different Avatar Mask to each one. Then, in your code, you can specify which ones are active by setting their weight parameter to 0 or 1.
 
 **IMPORTANT**
+
 Since the duplicating layers are referencing the same objects and don't have copies of those objects, deleting a duplicated layer would also delete the original layer. This is why if you want to delete a previously duplicated layer, you need to use the other script "Duplicated Layer Deletion" which will safely delete only the duplicated layer without affecting the source layer or other duplicated layers.
 
 
